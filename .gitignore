@@ -1,0 +1,42 @@
+# Git ignore for UE Graphics Wiki
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build
+build/
+dist/
+*.o
+*.a
+*.so
+
+# Temporary
+*.tmp
+*.bak
+.temp/
+
+# Node (if using for documentation generation)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Documentation build
+_build/
+site/
